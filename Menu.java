@@ -5,7 +5,7 @@ public class Menu {
         Scanner sc = new Scanner(System.in);
         int choice;
         do {
-            System.out.println("-----Library Management-----");
+            System.out.println("-----Student Management-----");
             System.out.println("1. Add name student ");
             System.out.println("2. Delete name student");
             System.out.println("3. Show name student.");
@@ -21,6 +21,7 @@ public class Menu {
                     break;
                 case 4:
                     System.out.println("Exiting program. Goodbye!");
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Invalid choice! Please try again.");
