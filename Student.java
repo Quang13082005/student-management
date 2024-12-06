@@ -1,4 +1,4 @@
-public class Students {
+public class Student {
     private String studentName;
     private String studentId;
     private String gender;
@@ -6,7 +6,7 @@ public class Students {
     private int age;
 
     // Constructor
-    public Students(String studentName, String studentId, String gender, String address, int age) {
+    public Student(String studentName, String studentId, String gender, String address, int age) {
         this.studentName = studentName;
         this.studentId = studentId;
         this.gender = gender;
