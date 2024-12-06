@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class teacher {
+public class Teacher {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int totalCost = 0;
@@ -31,11 +31,11 @@ public class teacher {
                     totalCost += 20;
                     break;
                 case 4:
-                    System.out.println("You can select teacher Thao");
+                    System.out.println("You can select teacher Quang");
                     totalCost += 15;
                     break;
                 default:
-                    System.out.println("You can select teacher Quang");
+                    System.out.println("Invalid");
             }
         } while (choice != 0);
     }
